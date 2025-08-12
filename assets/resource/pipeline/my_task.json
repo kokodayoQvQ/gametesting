@@ -1,11 +1,18 @@
 {
-    "MyTask1": {},
-    "MyTask2": {},
-    "MyTask3": {},
-    "MyTask4": {
-        "recognition": "Custom",
-        "custom_recognition": "my_reco_222",
-        "action": "Custom",
-        "custom_action": "my_action_111"
-    }
-}
+    "点击开始营业":{
+       "recognition": "OCR",
+       "expected": "营业",
+       "action": "click",
+       "next":[
+        "开始交谈"
+    ]
+    },
+    "开始交谈":{
+        "recognition":"OCR",
+        "expected":"交谈",
+        "action":"click",
+        "next":[
+            ""
+        ]
+        },
+    }    
